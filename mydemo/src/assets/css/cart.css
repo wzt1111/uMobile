@@ -1,0 +1,189 @@
+.container {
+  width: 7.5rem;
+  margin: 0 auto;
+}
+.container .header {
+  width: 7.5rem;
+  height: 0.7rem;
+  background-color: #f26b11;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.container .header .header_img {
+  margin-left: 0.3rem;
+  width: 0.5rem;
+}
+.container .header .header_img img {
+  width: 0.3rem;
+  height: 0.35rem;
+}
+.container .header .header_text {
+  font-size: 0.28rem;
+  color: white;
+  margin-left: 1.2rem;
+  margin-top: 0.2rem;
+}
+.container .header .header_circle {
+  height: 0.3rem;
+  margin-left: 0.8rem;
+  display: flex;
+  margin-right: 0.3rem;
+  margin-top: 0.3rem;
+}
+.container .header .header_circle .header_circle1 {
+  width: 0.1rem;
+  height: 0.1rem;
+  border-radius: 50%;
+  background-color: white;
+  margin-right: 0.1rem;
+}
+.container .shopping {
+  width: 7.5rem;
+  margin-top: 0.2rem;
+  height: 9rem;
+}
+.container .shopping .goods {
+  width: 7.5rem;
+  height: 1.63rem;
+  border-top: 1px solid #dddddd;
+  border-bottom: 1px solid #dddddd;
+  margin-bottom: 0.2rem;
+  display: flex;
+}
+.container .shopping .goods .goods_img1 {
+  width: 1rem;
+  height: 1rem;
+  margin-left: 0.3rem;
+  margin-top: 0.6rem;
+}
+.container .shopping .goods .goods_img1 input {
+  zoom: 130%;
+}
+.container .shopping .goods .goods_img2 {
+  margin-left: 0.4rem;
+  margin-top: 0.4rem;
+}
+.container .shopping .goods .goods_img2 img {
+  width: 1.02rem;
+  height: 0.82rem;
+}
+.container .shopping .goods .goods_text {
+  width: 2.1rem;
+  margin-left: 0.3rem;
+  margin-top: 0.2rem;
+  overflow: hidden;
+}
+.container .shopping .goods .goods_text .goods_text1 {
+  font-size: 0.28rem;
+  color: #333;
+}
+.container .shopping .goods .goods_text .goods_text2 {
+  font-size: 0.24rem;
+  color: #b7b7b7;
+  margin-top: 0.2rem;
+}
+.container .shopping .goods .goods_text .goods_text3 {
+  font-size: 0.28rem;
+  color: #e7383d;
+  margin-top: 0.1rem;
+}
+.container .shopping .goods .goods_num {
+  width: 2rem;
+  height: 0.6rem;
+  margin-left: 0.9rem;
+  margin-top: 0.9rem;
+  border: 1px solid black;
+  border-radius: 0.05rem;
+  display: flex;
+}
+.container .shopping .goods .goods_num .goods_num1 {
+  border-right: 1px solid black;
+  font-size: 0.3rem;
+  width: 0.6rem;
+  height: 0.6rem;
+  line-height: 0.6rem;
+  text-align: center;
+  cursor: pointer;
+  -webkit-user-select: none;
+}
+.container .shopping .goods .goods_num .goods_num2 {
+  border-right: 1px solid black;
+  font-size: 0.3rem;
+  width: 0.8rem;
+  height: 0.6rem;
+  line-height: 0.6rem;
+  text-align: center;
+}
+.container .shopping .goods .goods_num .goods_num3 {
+  font-size: 0.3rem;
+  width: 0.6rem;
+  height: 0.6rem;
+  line-height: 0.6rem;
+  text-align: center;
+  cursor: pointer;
+  -webkit-user-select: none;
+}
+.container .shopping .goods:nth-child(2) .goods_del {
+  font-size: 0.28rem;
+  background-color: #e43a3d;
+  color: white;
+  text-align: center;
+  width: 0.98rem;
+  line-height: 1.6rem;
+  margin-left: 0.18rem;
+}
+.container .total {
+  width: 7.5rem;
+  height: 1.12rem;
+  position: fixed;
+  bottom: 1.2rem;
+  border-top: 1px solid #ebebeb;
+  background-color: #fff;
+}
+.container .total .totalCon {
+  width: 7.5rem;
+  display: flex;
+}
+.container .total .totalCon .selectAll {
+  width: 1.5rem;
+  display: flex;
+}
+.container .total .totalCon .selectAll .goods_img1 {
+  width: 0.5rem;
+  margin-left: 0.3rem;
+  margin-top: 0.4rem;
+}
+.container .total .totalCon .selectAll .goods_img1 input {
+  zoom: 130%;
+}
+.container .total .totalCon .selectAll .text {
+  margin-top: 0.4rem;
+  font-size: 0.26rem;
+  color: #b9b9b9;
+}
+.container .total .totalCon .prNum {
+  height: 0.65rem;
+  margin-left: 0.6rem;
+  margin-top: 0.2rem;
+  text-align: right;
+}
+.container .total .totalCon .prNum .price {
+  font-size: 0.34rem;
+}
+.container .total .totalCon .prNum .price span {
+  color: #e3393d;
+}
+.container .total .totalCon .prNum .rprice {
+  margin-top: 0.1rem;
+  font-size: 0.24rem;
+  color: #b9b9b9;
+}
+.container .total .totalCon .btn button {
+  height: 1.12rem;
+  width: 2.45rem;
+  margin-left: 0.4rem;
+  font-size: 0.3rem;
+  color: #fff;
+  background-color: #f26c10;
+}
